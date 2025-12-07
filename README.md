@@ -1,15 +1,16 @@
-📊 Online Retail Sales – Data Analysis Project
+# 📊 Online Retail Sales – Data Analysis Project
+
 This project performs an end-to-end data analysis on an Online Retail Sales dataset.
 It includes data cleaning, feature engineering, exploratory analysis, and customer analytics such as RFM and Churn analysis.
 
-🚀 Project Workflow
-1. Data Loading
+## 🚀 Project Workflow
+### 1. Data Loading
 
 Import raw dataset into a pandas DataFrame.
 
 Handle file formats (CSV/Excel).
 
-2. Data Cleaning
+### 2. Data Cleaning
 
 Remove missing or invalid values
 
@@ -19,7 +20,7 @@ Remove negative/duplicate records
 
 Filter out cancellations
 
-3. Feature Engineering
+### 3. Feature Engineering
 
 Create new features such as:
 
@@ -29,7 +30,7 @@ Extract date parts (Year, Month, Day)
 
 Calculate customer-level metrics
 
-📈 4. Visualization & EDA
+### 4. Visualization & EDA
 📌 Monthly Sales Trend
 
 Line plot showing how sales change month-by-month.
@@ -46,7 +47,7 @@ Bar plot visualizing contribution of each country to total revenue.
 
 Bar plot showing top products and their revenue contribution.
 
-🧮 5. RFM Analysis
+### 5. RFM Analysis
 
 RFM = Recency, Frequency, Monetary
 
@@ -71,7 +72,7 @@ Purpose:
 ✔ Detect dormant customers
 ✔ Target marketing campaigns
 
-🔍 6. Churn Analysis
+### 6. Churn Analysis
 
 Churn analysis identifies customers who may have stopped buying.
 
@@ -83,7 +84,7 @@ Define churn_threshold (e.g., 90 days)
 
 Analyze churn patterns & customer behavior
 
-📊 7. Churned Customer Distribution Visualization
+### 7. Churned Customer Distribution Visualization
 
 Plot histogram of customer recency
 
@@ -95,29 +96,27 @@ Purpose:
 ✔ Identify at-risk customers
 ✔ Understand retention patterns
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
-Python
+* Python
 
-Pandas
+* Pandas
 
-NumPy
+* NumPy
 
-Matplotlib
+* Matplotlib
 
-Seaborn
+* Seaborn
 
-Jupyter Notebook
-
-📌 Conclusion
+## Conclusion
 
 This project provides a complete pipeline of analyzing online retail data — from cleaning to advanced customer analytics such as RFM and Churn.
 The insights help businesses understand:
 
-Who are the top customers?
+* Who are the top customers?
 
-Which products and countries contribute the most?
+* Which products and countries contribute the most?
 
-How customer behavior shifts over time?
+* How customer behavior shifts over time?
 
-Which customers are likely to churn?
+* Which customers are likely to churn?
