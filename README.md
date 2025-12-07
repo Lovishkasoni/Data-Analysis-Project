@@ -1,5 +1,4 @@
 📊 Online Retail Sales – Data Analysis Project
-
 This project performs an end-to-end data analysis on an Online Retail Sales dataset.
 It includes data cleaning, feature engineering, exploratory analysis, and customer analytics such as RFM and Churn analysis.
 
